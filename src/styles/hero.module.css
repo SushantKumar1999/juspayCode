@@ -1,0 +1,140 @@
+
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+    /* background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);  */
+    text-align: center;
+
+}
+
+.imageWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Prevent image from interfering with mouse events */
+}
+
+.heroImage {
+    position: relative;
+    max-width: 100px; /* Adjust size as needed */
+    max-height: 100px;
+}
+
+.body{
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    margin: 0px;
+}
+  
+/* .content {
+    max-width: 800px;
+    text-align: center;
+} */
+.paragraph{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+  
+.globalText {
+    color: #005eff;
+    font-size: 6.5rem;
+    margin: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.heroText{
+    font-size: 6.5rem;
+    color: white;
+    margin: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+  
+.animation {
+    margin-top: 2rem;
+    width: 300px;
+}
+
+
+.header {
+    /* background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%); */
+    color: #fff; 
+    padding: 20px; 
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    
+}
+.navList {
+    display: flex;           /* Align items in a row */
+    align-items: center;     /* Vertically align items */
+    justify-content: space-between;  /* Space out the elements */
+    list-style: none;        /* Remove bullets */
+    margin: 15px;
+    padding: 10px;
+    border: solid rgb(42, 42, 42);
+    border-radius: 100px;
+    
+}
+
+.navList li {
+    margin-right: 20px;      /* Space between each list item */
+    font-size: 1.2rem;
+    cursor: pointer;
+    /* transform: translate(0px, -20px); 
+    transform-origin: center;
+    transition: transform 0.3s ease; */
+    transition: color 0.3s ease;
+}
+
+.logoContainer {
+    flex: 1; /* Takes up half of the space */
+}
+
+.navList li:last-child {
+    margin-right: 0;         /* Remove right margin from last item */
+}
+  
+.logo {
+    margin-right: 20px;      /* Space between logo and the next item */
+}
+  
+.navList li:hover {
+    color: #0066ff;          /* Change text color on hover */
+}
+
+.icon {
+    margin: 0 10px; /* Adjust spacing as needed */
+}
+.arrowIcon{
+    margin-left: 0.5rem;
+    
+}
+
+.ctaButton {
+    background: linear-gradient(45deg, rgba(1, 111, 208, 1), rgba(4, 74, 173, 1), rgba(3, 53, 124, 1));
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    height: 80px;
+    color: white; /* White text */
+    padding: 0.75rem 2rem; /* Adjust padding for better spacing */
+    border: 2px solid #0066ff; /* Add a border with the same blue color */
+    border-radius: 50px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    font-size: 1.25rem; /* Adjust font size for better readability */ 
+    cursor: pointer;
+    gap: 2.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px; 
+    margin-bottom: 45px;/* Add transition for smooth hover effect */
+  }
+  
+  .ctaButton:hover {
+    background-color: #015de7; /* Darken the background color on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+
+  

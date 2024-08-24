@@ -1,0 +1,31 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #fff;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    margin: 0px;
+}
+  
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+  
+  p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #0066ff;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+button:hover {
+  background-color: #0046d5;
+}
+  
