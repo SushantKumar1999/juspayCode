@@ -6,7 +6,10 @@
     align-items: center;
     padding: 1rem 2rem;
     text-align: center;
-
+    background-image: url('../../public/grid.svg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
 }
 
 .region{
@@ -24,7 +27,7 @@
 
 .iconContainer:hover .region {
     display: block; 
-  }
+}
 
 .regiontext{
     border-bottom: 1px solid rgb(96, 95, 95);
@@ -56,6 +59,7 @@
 .body{
     background: linear-gradient(109.6deg, rgb(17, 20, 26) 11.2%, rgb(8, 15, 23) 51.2%, rgb(0, 0, 0) 98.6%);
     margin: 0px;
+    
 }
 
 .paragraph{
@@ -206,12 +210,68 @@
     transition: background-color 0.3s ease, transform 0.3s ease;
     margin-top: 20px; 
     margin-bottom: 45px;
-  }
+}
   
-  .ctaButton:hover {
+.ctaButton:hover {
     background-color: #015de7; 
     transform: translateY(-3px);
+}
+
+.followBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; /* Adjust size as needed */
+    height: 200px;
+    pointer-events: none; /* Prevent it from interfering with clicks */
+    z-index: 1000; /* Ensure it appears on top of other elements */
+}
+  
+  .followBox img {
+    width: 100%;
+    height: auto;
+  }
+
+  .imageContainer {
+    height: 212px;
+    width: 212px;
   }
   
+  .imageContainer img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .infoBox {
+    position: absolute;
+    right: -84px;
+    top: 6.5rem;
+    width: 108px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding: 2px 5px;
+    border: 0.8px solid white;
+    background-color: #121316;
+    border-radius: 22px;
+  }
+  
+  .amount {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 120%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  .label {
+    color: #A6ADB7;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
 
   

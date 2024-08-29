@@ -14,7 +14,7 @@ const Header = () => {
       { opacity: 1, y: 0, duration: 2, ease: "power2.out", stagger: 0.2 }
     );
   }, []);
-
+   
   return (
     <div className={styles.container}>
     <header className={styles.header}>

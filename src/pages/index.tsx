@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <>
     <div className={styles.body}>
-      <Header />
       <main>
         <Hero />
       </main>
