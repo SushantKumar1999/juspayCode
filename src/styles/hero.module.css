@@ -77,8 +77,37 @@
     font-size: 6.5rem;
     margin: 10px;
     display: flex;
+    overflow: hidden;
+    white-space: nowrap;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+.letter {
+    width: 70px;
+    height: 100px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    height: 400%; /* Because there are 4 characters */
+    transform: translateY(0%);
+  }
+  
+  .box div {
+    height: 100px; /* Same as letter height */
+    line-height: 100px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .final {
+    font-size: 48px; /* Highlight final character */
+    font-weight: bold;
+  }
 
 .heroText{
     font-size: 6.5rem;
@@ -102,7 +131,8 @@
     .container {
       display: block;  
     }
-  }
+}
+
 .header {
     padding: 20px 0;
     background-color: #121316;
@@ -111,9 +141,9 @@
     display: flex;
     justify-content: center;
     border-radius: 50px;
-  }
+}
   
-  .navbar {
+.navbar {
     max-width: 1440px;
     width: 100%;
     padding: 0 4rem;
@@ -122,79 +152,79 @@
     align-items: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
     
-  }
+}
   
-  .logoContainer {
+.logoContainer {
     display: flex;
     align-items: center;
-  }
+}
   
-  .logoLink {
+.logoLink {
     display: inline-block;
-  }
+}
   
-  .logoImg {
+.logoImg {
     height: auto;
     width: 40px;
-  }
+}
   
-  .logoText {
+.logoText {
     color: #fff;
     font-size: 30px;
     font-weight: 400;
     margin-left: 10px;
     display: flex;
     font-family: 'Plus Jakarta Sans', sans-serif;
-  }
+}
   
-  .smallA {
+.smallA {
     margin-left: -1.5px;
-  }
+}
   
-  .smallY {
+.smallY {
     margin-left: -2px;
-  }
+}
   
-  .navLinks {
+.navLinks {
     display: flex;
     align-items: center;
     gap: 20px;
     list-style: none;
-  }
+}
   
-  .navLink {
+.navLink {
     color: #F4F4F4;
     font-size: 1.1rem;
     font-weight: 500;
     padding: 0.5rem 1rem;
     transition: color 0.3s ease;
-  }
+}
   
-  .navLink:hover {
+.navLink:hover {
     color: #0B65E3;
-  }
+}
   
-  .contactUs {
+.contactUs {
     color: #0099FF;
-  }
+}
   
-  .contactUs:hover {
+.contactUs:hover {
     color: #0561E2;
-  }
+}
   
-  .iconContainer {
+.iconContainer {
     position: relative;
-  }
+}
   
-  .globeIcon {
+.globeIcon {
     width: 48px;
     height: 48px;
-  }
+}
   
-  .arrowIcon {
+.arrowIcon {
     height: 12px;
     margin-left: 8px;
-  }
+}
 .ctaButton {
     background: linear-gradient(45deg, rgba(1, 111, 208, 1), rgba(4, 74, 173, 1), rgba(3, 53, 124, 1));
     font-family: 'Plus Jakarta Sans', sans-serif; 
@@ -221,28 +251,38 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 200px; /* Adjust size as needed */
+    width: 200px;
     height: 200px;
-    pointer-events: none; /* Prevent it from interfering with clicks */
-    z-index: 1000; /* Ensure it appears on top of other elements */
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.leftSide {
+    top: 20%;
+    left: 10%;
 }
   
-  .followBox img {
+.rightSide {
+    top: 20%;
+    right: 10%;
+}
+  
+.followBox img {
     width: 100%;
     height: auto;
-  }
+}
 
-  .imageContainer {
+.imageContainer {
     height: 212px;
     width: 212px;
-  }
+}
   
-  .imageContainer img {
+.imageContainer img {
     height: 100%;
     width: 100%;
-  }
+}
   
-  .infoBox {
+.infoBox {
     position: absolute;
     right: -84px;
     top: 6.5rem;
@@ -257,21 +297,24 @@
     border: 0.8px solid white;
     background-color: #121316;
     border-radius: 22px;
-  }
+}
   
-  .amount {
+.amount {
     color: #fff;
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 120%;
     font-family: 'Plus Jakarta Sans', sans-serif;
-  }
+}
   
-  .label {
+.label {
     color: #A6ADB7;
     font-size: 11px;
     font-weight: 500;
     font-family: 'Plus Jakarta Sans', sans-serif;
-  }
+}
+
+
+
 
   

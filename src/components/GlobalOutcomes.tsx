@@ -1,8 +1,9 @@
-import React, { useEffect} from 'react';
+import React, { useEffect, useRef} from 'react';
 import styles from '../styles/hero.module.css';
 import { gsap } from 'gsap';
 
 const GlobalOutcomes = () => {
+    
     useEffect(() => {
         gsap.fromTo(
           ` .${styles.globalText} span`,
@@ -13,7 +14,7 @@ const GlobalOutcomes = () => {
 
     return (
         <div className={styles.globalText}>
-        <span>G</span>
+        <span >G</span>
         <span>L</span>
         <span>O</span>
         <span>B</span>
